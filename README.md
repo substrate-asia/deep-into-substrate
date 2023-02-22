@@ -3,7 +3,8 @@
 ## TODOs
 
 - Runtime implementation - Maggie
-- Account abstraction - Mike
 - Libp2p networking - Kaichao
+- Account abstraction - Mike
 - Pluggable Consensus - Mike
+- Transaction and Transaction Pool - Mike
 
