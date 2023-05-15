@@ -60,7 +60,29 @@ Substrate把Extrinsic分为3种：签名交易、不签名交易和内在交易�
 1. 块被finalized，存入local数据库
 
 
+## Signed Transaction的标准验证过程
 
+- SignedExtension
+- system pallet
+- account validation
+- nonce
+- pay fees
+- call dispatch
+- 
+
+## Unsigned Transaction的验证过程
+
+- 走了另一个pipeline
+- 自己验证的流程
+- 
+
+
+## Transaction 入交易池和在交易池中的逻辑
+
+### 校验规则
+### Runtime参与的部分
+几个函数
+### SignedExtensions
 
 
   
@@ -73,11 +95,6 @@ Substrate把Extrinsic分为3种：签名交易、不签名交易和内在交易�
     ### subxt
     ### polkadotjs
 
-## 交易池
-    ### substrate中的交易池实现
-    ### 校验规则
-    ### Runtime参与的部分
-    ### SignedExtensions
 
 ## 交易的广播
 
